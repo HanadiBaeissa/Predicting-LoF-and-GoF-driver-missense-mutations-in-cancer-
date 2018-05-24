@@ -9,11 +9,11 @@ Then, Select the features using FATHMM cancer, FATHMM disease, Polyphen-2, Mutat
 Four features selected from FATHMM cancer including: HMM Weights D., HMM Weights O.,HMM Prob W. and HMM Prob M..
 One feature selected from FATHMM disease which is HMM Weights D..
 One feature selected from Mutation Assessor which is Functional Impact score (FI).
-Three features selected from PolyPhen-2 including: PHAT, PSIC Score1, dScore.
+Six features selected from PolyPhen-2 including: PHAT, PSIC Score1, dScore,Transv, CodPos and CpG .
 The last source of features was the protein surface accessibility and secondary structure predictions (NetSurfP) server.
 
 Seven features selected from (NetSurfP) Two features are provided twice, one for the wild type amino acid and one for the mutant amino acid, include: Class assignment relative surface accessibility (RSA), absolute surface accessibility (ASA), Three features for only the wild type amino acis include: Probability for Alpha-Helix, Probability for Beta-strand and Probability for Coil.
-Finaly, use support vector machine classifier to predict LOF and GOF in cancer- associated mutation.
+Finaly, use random forest classifier to predict LOF and GOF in cancer- associated mutation.
 
 To use the scripts:
 
